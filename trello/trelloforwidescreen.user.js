@@ -109,7 +109,14 @@ $document.on({
 // Clicking above a list title will expand/contract it
 $document.on({ click: function(e){ 
     $(e.target).add($(e.target).find('.list-card')).toggleClass('maximised-list');
-    $(unsafeWindow.document.body).find('#board').scrollLeft($(e.target).position().left);
+    var target = $(e.target);
+    if( !target.hasClass('list') ) {
+        target = target.parents('.list:eq(0)');
+    }
+    if( target.length ) {
+        var $board = $(unsafeWindow.document.body).find('#board');
+        $board.scrollLeft($board.scrollLeft() + target.position().left);
+    }
 } }, '.list');
 
 // Clicking above the activity title will expand/contract it. When it expands it, it also requests
