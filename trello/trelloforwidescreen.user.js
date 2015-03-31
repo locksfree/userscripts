@@ -40,7 +40,7 @@ var $ = unsafeWindow.jQuery;
 $(unsafeWindow.document.body).append($("<style>").text("\
 @media (min-width: 1400px) { .window-main-col { width: 88% } } \
 @media (min-width: 1366px) { .window-main-col { width: 85% } } \
-@media (min-width: 1000px) { .window-main-col { width: 82% } } \
+@media (min-width: 1000px) { .window-main-col { width: 80% } } \
 @media (min-width: 1000px) { \
 	.window{ width: 90%; } \
 	.card-detail-item.card-detail-item-block > .card-detail-edit, .card-detail-item.card-detail-item-block > .current, .checklist-list { \
