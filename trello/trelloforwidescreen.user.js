@@ -3,7 +3,7 @@
 // @namespace   Trello
 // @description Trello for wide screens
 // @include     https://trello.com/*
-// @version     1
+// @version     2
 // @grant       none
 // @author      LocksFree <locksfree+userscripts@gmail.com>
 // @downloadURL https://raw.githubusercontent.com/locksfree/userscripts/master/trello/trelloforwidescreen.user.js
