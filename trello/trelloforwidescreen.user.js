@@ -6,6 +6,8 @@
 // @version     1
 // @grant       none
 // @author      LocksFree <locksfree+userscripts@gmail.com>
+// @downloadURL https://raw.githubusercontent.com/locksfree/userscripts/master/trello/trelloforwidescreen.user.js
+// @updateURL https://raw.githubusercontent.com/locksfree/userscripts/master/trello/trelloforwidescreen.user.js
 // ==/UserScript==
 
 // Custom cursor pointer: http://megaicons.net/iconspack-520/15534/ | License: CC Attribution-Noncommercial 3.0 
